@@ -1,4 +1,0 @@
-# autonomous_mars_rover
-
-JOSH IF YOUR READING THIS YOUR BAAAAAAAD Nah
-
