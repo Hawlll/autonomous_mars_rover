@@ -1,15 +1,15 @@
 # Autonomous Rover
 
-A 3D-printed rover built from scratch — Raspberry Pi 4 brain, ESP32 motor control — designed to go from full manual control to a semi-autonomous "follow me" mode.
+A 3D-printed rover built from scratch Raspberry Pi 4 brain, ESP32 motor control designed to go from full manual control to a semi-autonomous "follow me" mode.
 
 ## Team
-- **Josh** — Hardware: chassis design/printing, wiring, assembly, battery pack
-- **Franklin** — Software: RPi setup, ESP32 firmware, vision, navigation
-- **Bruno** — Website: project site and build documentation
+- **Josh** Hardware: chassis design/printing, wiring, assembly, battery pack
+- **Franklin** Software: RPi setup, ESP32 firmware, vision, navigation
+- **Bruno** Website: project site and build documentation
 
 ## Project Goals
-1. **Manual control** — drive the rover remotely from a browser, with a safety watchdog that stops it if the connection drops.
-2. **Assisted control + follow mode** — the rover helps avoid obstacles while a human still steers, and can track and follow a person on its own for a set period of time.
+1. **Manual control** drive the rover remotely from a browser, with a safety watchdog that stops it if the connection drops.
+2. **Assisted control + follow mode** the rover helps avoid obstacles while a human still steers, and can track and follow a person on its own for a set period of time.
 
 ## Specs
 | | |
@@ -26,8 +26,8 @@ Built at Penn State Hazleton. See `ROADMAP.md` for the full technical timeline a
 
 ## Repo Layout
 ```
-/firmware    - ESP32 motor control code
-/navigation  - vision, obstacle detection, follow-mode logic
-/ui          - browser control interface
-/docs        - wiring diagrams, build notes
+/firmware    ESP32 motor control code
+/navigation  vision, obstacle detection, follow-mode logic
+/ui          browser control interface
+/docs        wiring diagrams, build notes
 ```
